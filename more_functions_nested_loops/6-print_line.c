@@ -1,13 +1,15 @@
 #include "main.h"
 /**
- * print_line - draws a straight line in the terminal
- * @n: number of times to print the character '_'
+ * print_line - func
+ * @n: variable
  */
 void print_line(int n)
 {
+	int a;
+
 	if (n > 0)
-	{
-		for (int a = n; a > n; a--)
+{
+		for (a = n; a > 0; a--)
 			_putchar('_');
 		_putchar('\n');
 	}
