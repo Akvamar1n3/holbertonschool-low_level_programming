@@ -12,5 +12,5 @@ void print_most_numbers(void)
 			_putchar(a);
 		a++;
 	}
-	putchar ('\a');
+	_putchar ('\a');
 }
