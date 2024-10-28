@@ -1,4 +1,4 @@
-#in#include "main.h"
+#include "main.h"
 /**
  * _isupper - func
  * @c: variable
