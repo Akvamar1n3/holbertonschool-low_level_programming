@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 /**
  * swap_int - func
  * @a: integer
