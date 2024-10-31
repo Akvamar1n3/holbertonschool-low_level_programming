@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * strcat - func
+ * _strcat - func
  * @dest: pointer
  * @src: pointer
  * Return: sum 2 of this
