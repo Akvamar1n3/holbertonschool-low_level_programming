@@ -5,7 +5,7 @@
  *
  * Return: res
  */
-char *string_toupper(char *)
+char *string_toupper(char *res)
 {
 	int a;
 	
