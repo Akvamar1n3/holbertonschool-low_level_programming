@@ -13,7 +13,7 @@ char *cap_string(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (str[0] < 96 & str[0] < 123)
+		if (str[0] > 96 & str[0] < 123)
 			tr = 1;
 
 		for (a = 0; sym[a] != '\0'; a++)
