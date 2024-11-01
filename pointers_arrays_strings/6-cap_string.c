@@ -8,7 +8,7 @@
 
 char *cap_string(char *str)
 {
-	char sym[] = ",:.!/(){}\n\t" ";
+	char sym[] = ",;.!?(){}\n\t\" ";
 	int a, i, tr = 0;
 
 	for (i = 0; str[i] != '\0'; i++)
